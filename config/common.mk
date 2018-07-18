@@ -244,6 +244,13 @@ endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
 PRODUCT_VERSION_MAJOR = 15
 PRODUCT_VERSION_MINOR = 1
 PRODUCT_VERSION_MAINTENANCE := 0
